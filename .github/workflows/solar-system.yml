@@ -51,7 +51,7 @@ jobs:
           run: npm install
    
         - name: Code Coverage
-          run: npm run code-coverage
+          run: npm run coverage
 
         - name: Upload result
           uses: actions/upload-artifact@v4
